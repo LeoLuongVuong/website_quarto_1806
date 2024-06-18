@@ -1,0 +1,22 @@
+---
+title: "Some desciptives - Part 2"
+format: html
+---
+
+```{r}
+#| include: false
+
+library(tidyverse)
+
+data(mtcars)
+```
+
+
+```{r}
+
+
+ggplot(mtcars, aes(mpg, hp))+
+  geom_point()+
+  theme_bw()
+```
+

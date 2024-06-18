@@ -1,0 +1,20 @@
+---
+title: "My first analysis"
+format: html
+---
+
+```{r}
+#| include: false
+
+library(tidyverse)
+
+data(mtcars)
+```
+
+
+```{r}
+
+
+lm(mpg ~ hp, mtcars)
+```
+

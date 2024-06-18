@@ -1,0 +1,28 @@
+project: 
+  type: website
+  render:
+    - "*.qmd"
+    - "!*.rmd"
+  
+website:
+  title: "My brandnew website"
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Section 1"
+        contents:
+          - Theory.qmd
+          - Theory2.qmd
+      - section: "Case Study"
+        contents:
+          - text: "First Analysis"
+            href: Analysis1.qmd
+          - text: "Second Analysis"
+            href: Analysis2.qmd
+
+
+  
+
+      
+      
